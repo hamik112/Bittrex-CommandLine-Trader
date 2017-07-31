@@ -1,7 +1,7 @@
 # Bittrex Command-Line Trader
 ## Andre V. Banks
 
-i
+![Cli Defualt Functionality](https://media.giphy.com/media/l0EoBilWm7mOSksta/giphy.gif)
 
 
 
