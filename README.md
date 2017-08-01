@@ -2,7 +2,9 @@
 ## Andre V. Banks
 
 
-A commandline application for Mac OS that enables coin tradring through Bittrex on the CLI. A secrets.py file needs to be created which will hold the API key and secrety generated from Bittrex. The cli_trader.py file contains a global variable 'LOT' this determines what dollar lots the coins should be traded.  The default value is 5 which means coins will be traded in $5 USD lots.  This functionality makes trading between coins a lot easier to deal with.  Due to the extremely volatile nature of Bitcoin I find pricing purchase size in USD a lot easier.   
+A commandline application for Mac OS that enables coin tradring through Bittrex on the CLI. To run the application it needs to be granted execution permission this can be done by running the following command in the directory of the "cli_trader.py" file ```bash
+chmod u+x cli_trader.py ```
+.A secrets.py file needs to be created which will hold the API key and secrety generated from Bittrex. The cli_trader.py file contains a global variable 'LOT' this determines what dollar lots the coins should be traded.  The default value is 5 which means coins will be traded in $5 USD lots.  This functionality makes trading between coins a lot easier to deal with.  Due to the extremely volatile nature of Bitcoin I find pricing purchase size in USD a lot easier.   
 
 
 ## Commands
@@ -22,6 +24,7 @@ Balance $90000
 
 ## Buy Order @ ASK Price
 ### ./cli_trader.py --b <ticker> <lots>
+
 
 
 
